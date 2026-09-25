@@ -68,8 +68,7 @@ swiss ephemeris (pyswisseph 2.10) · OpenAI-совместимый клиент
 - Линтеры: **ruff** + **mypy** (strict-режим)
 - CI на каждый push: тесты на Python 3.11/3.12, `pytest --cov`, артефакт `coverage.xml`
 - Покрытие по модулям: `db`, `geo`, `ai`, `services`, `states`, `main` — 100%
-
-Тесты изолированы: Telegram API мокается, сеть не нужна.
+- Тесты изолированы: Telegram API мокается, сеть не нужна.
 
 ---
 
